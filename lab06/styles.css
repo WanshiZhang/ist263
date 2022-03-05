@@ -1,6 +1,12 @@
-body{font-family:Georgia, 'Times New Roman', Times, serif;}
-h1, h2{color:dodgerblue}
-.special{color:aquamarine}
-.evenrow{background-color:bisque}
-h1{font-size: 4em;}
-h2{font-size: 3em;}
+body {
+    font-family: Tahoma, sans-serif;
+  }
+p, h1, h2{color:darkgreen;}
+
+tr:nth-child(even) {
+    background-color: #6229e7;}
+
+.evenrow{background-color:rgb(238, 159, 62)
+}
+h1{font-size: 2em;}
+h2{font-size: 1em;}
