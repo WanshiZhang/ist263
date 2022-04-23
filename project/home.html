@@ -1,47 +1,133 @@
 <!DOCTYPE html>
 <html>
-  <head>Home page</head>
+ <head>
+<style>
+body {
+     background-color:whitesmoke;
+}
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #333;
+}
+
+li {
+ float: left;
+}
+
+li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 15px;
+ text-decoration: none;
+}
+
+li a:hover {
+ background-color:dodgerblue;
+}
+
+#main {
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ display: flex;
+ justify-content: space-around;
+}
+
+p {
+  background-image: url(homepic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 5%;
+  padding: 130px;
+ font-size:larger
+ font-family: Georgia, 'Times New Roman', Times, serif;
+  word-spacing: 3px;
+  line-height: 150%;
+}
+
+.div2{
+  margin-top: 5%;
+}
+
+.covid {float: left;
+  clear:both;
+  
+}
+
+p1 {
+font-size:larger;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size:x-large;
+ text-align: center;
+ margin-top: 5%;
+ margin-bottom:3%;
+}
+
+.news {
+ border-radius: 50%;
+}
+
+.flex-container {
+ display: flex;
+ margin: 10px;
+ padding: 20px;
+ font-size: 30px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: medium;
+ justify-content: space-around;
+ text-align: center;
+ align-items: center;
+}
+
+
+</style>
+ </head>
 <body>
 
 <ul id="main">
-  <li><a href="home.html">Home</a></li>
-  <li><a href="suggestion.html">Suggestion</a></li>
-  <li><a href="resources.html">Resource</a></li>
+ <li><a href="home.html">Home</a></li>
+ <li><a href="suggestion.html">Suggestion</a></li>
+ <li><a href="resources.html">Resource</a></li>
 </ul>
 
 <div class="div1">
 
 <p> <strong>What Do We Do?"</strong><br>
-    In the past two years, the COVID-19 has gradually<br>
-    became one of the most concerning issues for <br>
-    people worldwide, especially the emerging variants <br>
-    and the spreading infection rate ask people to get<br>
-    the latest information on COVID-19 quickly and <br>
-     effciently---<strong>that's what we do. </strong>
+ In the past two years, the COVID-19 has gradually<br>
+ became one of the most concerning issues for <br>
+ people worldwide, especially the emerging variants <br>
+ and the spreading infection rate ask people to get<br>
+ the latest information on COVID-19 quickly and <br>
+effciently---<strong>that's what we do. </strong>
 </div>
 
 <section>
 <div class="flex-container">
-    <img class="covid" src="US_Community_Transmission_of_All_Counties.png" alt="COVID-19 map" width="900" height="500">
-    <p1><strong>Get to Know the latest</strong><br><br>There is the COVID-19 infectious map.</p1>
+ <img class="covid" src="US_Community_Transmission_of_All_Counties.png" alt="COVID-19 map" width="900" height="500">
+ <p1><strong>Get to Know the latest</strong><br><br>There is the COVID-19 infectious map.</p1>
 </div>
 </section>
 
 <section>
-    <h1><strong>What happened recently</strong></h1>
+ <h1><strong>What happened recently</strong></h1>
 <div class="flex-container">
-    <img class="news" src="covid.png" alt="covidnews1" width="300" height="300">
-    <img class="news" src="covidnew2.jpg" alt="covidnews2" width="300" height="300">
-    <img class="news" src="covidnews3.jpg" alt="covidnews3" width="300" height="300">
+ <img class="news" src="covid.png" alt="covidnews1" width="300" height="300">
+ <img class="news" src="covidnew2.jpg" alt="covidnews2" width="300" height="300">
+ <img class="news" src="covidnews3.jpg" alt="covidnews3" width="300" height="300">
 </div>
 
-    <div class="flex-container">
-        <br><p3>New variant increases Onondaga County <br>COVID-19 positive cases.</p3>
-        <br><p4>FDA authorized fourth doses of Pfizer and <br>Moderna for people aged 50 and older.</p4>
-        <br><p5>CDC still recommand wearing masks <br> in 3 CNY counties. </p5>
+<div class="flex-container">
+<br><p3>New variant increases Onondaga County <br>COVID-19 positive cases.</p3>
+ <br><p4>FDA authorized fourth doses of Pfizer and <br>Moderna for people aged 50 and older.</p4>
+ <br><p5>CDC still recommand wearing masks <br> in 3 CNY counties. </p5>
 </div>
 </section>
-
 
 </body>
 </html>
