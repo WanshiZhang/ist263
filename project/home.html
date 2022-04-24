@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <head>
 <style>
+
 body {
-     background-color:whitesmoke;
+     background-color:rgb(242, 242, 242);
 }
 ul {
  list-style-type: none;
  margin: 0;
  padding: 0;
  overflow: hidden;
- background-color: #333;
+ background-color: #000000a2;
 }
 
 li {
@@ -36,15 +38,13 @@ li a:hover {
 }
 
 p {
+  font-family:Georgia, 'Times New Roman', Times, serif;
   background-image: url(homepic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 5%;
   padding: 130px;
- font-size:larger
- font-family: Georgia, 'Times New Roman', Times, serif;
-  word-spacing: 3px;
-  line-height: 150%;
+ font-size:larger;
 }
 
 .div2{
@@ -56,7 +56,7 @@ p {
   
 }
 
-p1 {
+.p1 {
 font-size:larger;
  font-family:Georgia, 'Times New Roman', Times, serif;
 }
@@ -81,10 +81,14 @@ font-family: Georgia, 'Times New Roman', Times, serif;
  font-family: Georgia, 'Times New Roman', Times, serif;
  font-size: medium;
  justify-content: space-around;
- text-align: center;
  align-items: center;
 }
 
+#text{
+  text-align: center;
+ align-items: center;
+ margin-left: -4%;
+}
 
 </style>
  </head>
@@ -98,8 +102,8 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 <div class="div1">
 
-<p> <strong>What Do We Do?"</strong><br>
- In the past two years, the COVID-19 has gradually<br>
+<p>  <span style="font-size: x-large;"><strong>What Do We Do?"</strong></span><br>
+<br>In the past two years, the COVID-19 has gradually<br>
  became one of the most concerning issues for <br>
  people worldwide, especially the emerging variants <br>
  and the spreading infection rate ask people to get<br>
@@ -109,20 +113,22 @@ effciently---<strong>that's what we do. </strong>
 
 <section>
 <div class="flex-container">
- <img class="covid" src="US_Community_Transmission_of_All_Counties.png" alt="COVID-19 map" width="900" height="500">
- <p1><strong>Get to Know the latest</strong><br><br>There is the COVID-19 infectious map.</p1>
+  <img class="covid" src="US_COVID-19_Community_Levels_of_All_Counties.png" alt="COVID-19 map" width="900" height="500">
+ <p1><span style="font-size: x-large;"><strong>Get to Know the latest</strong></span><br>
+<br>More information on CDC website.</p1>
 </div>
+<a href="https://www.cdc.gov/"><span style="font-size:xx-small; justify-content: left; margin-left: 5%; font-family:Georgia, 'Times New Roman', Times, serif;">Sources from CDC</a>
 </section>
 
 <section>
  <h1><strong>What happened recently</strong></h1>
 <div class="flex-container">
- <img class="news" src="covid.png" alt="covidnews1" width="300" height="300">
- <img class="news" src="covidnew2.jpg" alt="covidnews2" width="300" height="300">
- <img class="news" src="covidnews3.jpg" alt="covidnews3" width="300" height="300">
+ <a href="https://covid19.ongov.net/data/"><img class="news" src="covid.png" alt="covidnews1" width="300" height="300"></a>
+ <a href="https://www.fda.gov/news-events/press-announcements/coronavirus-covid-19-update-fda-authorizes-second-booster-dose-two-covid-19-vaccines-older-and"><img class="news" src="covidnew2.jpg" alt="covidnews2" width="300" height="300"></a>
+ <a href="https://www.syracuse.com/coronavirus/2022/04/cdc-still-recommending-masks-in-3-central-new-york-counties-covid-update.html"><img class="news" src="covidnews3.jpg" alt="covidnews3" width="300" height="300"></a>
 </div>
 
-<div class="flex-container">
+<div class="flex-container"; id="text">
 <br><p3>New variant increases Onondaga County <br>COVID-19 positive cases.</p3>
  <br><p4>FDA authorized fourth doses of Pfizer and <br>Moderna for people aged 50 and older.</p4>
  <br><p5>CDC still recommand wearing masks <br> in 3 CNY counties. </p5>
