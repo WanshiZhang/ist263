@@ -1,6 +1,124 @@
 <!DOCTYPE html>
-<html>
-  <head>Resources page</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resource</title>
+
+<style>
+body {
+  background-color:rgb(242, 242, 242);
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #000000a2;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 15px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color:dodgerblue;
+}
+
+#main {
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ display: flex;
+ justify-content: space-around;
+}
+
+#mainresource {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-top: 5%;
+  padding: 200px;
+ font-size: 400%;  
+  background-image: url(resources.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:aliceblue;
+  align-items: center;
+  text-align: center;
+}
+
+#nyproject{
+ 
+  margin-top: 5%;
+  padding: 130px;
+  background-image: url(detail-stethoscope-doctor-woman-white-coat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+
+}
+
+#sites {
+  margin-top: 5%;
+  padding: 130px;
+  background-image: url(syringe-kanuelle-vaccination-disposable-syringe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+ font-size: 300%;  
+ color:aliceblue;
+}
+
+#nyspecial {
+font-family:Georgia, 'Times New Roman', Times, serif;
+ font-size: 300%;  
+ color:aliceblue;
+}
+
+#nytext {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+ font-size: 150%;  
+ color:aliceblue;
+}
+
+#button
+  {
+  background-color: #5786e6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#button2
+  {
+  background-color: #5786e6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+</style>
+
+  <head></head>
 <body>
 
 <ul id="main">
@@ -9,17 +127,22 @@
   <li><a href="resources.html">Resource</a></li>
 </ul>
 
-<div>
-    <div>resources you should know</div>
+<div id="mainresource">
+    <div><strong>Resources You Should Know</strong></div>
 </div>
-<div>NY Project Hope</div>
-<div>"We have an emotional support helpline, educational materials, trusted referrals, and local provider agencies… all dedicated to helping you manage and cope with changes brought on by COVID-19."</div>
+<div id="nyproject">
+<div id="nyspecial"><strong>NY Project Hope</strong></div><br>
+<div id="nytext">"We have an emotional support helpline, educational materials, trusted referrals, and local provider agencies… all dedicated to helping you manage and cope with changes brought on by COVID-19."</div><br>
 <form action="https://nyprojecthope.org/?utm_medium=G1Search&utm_source=Google&utm_campaign=OMHProjectHOPERSPGrant">
-<input type="submit" value="Learn More">
+<input id="button" type="submit" value="Learn More">
 </form>
+</div>
 
-<div>
-    <div>Find COVID-19 vaccination sites</div>
+<div id="sites">
+    <div><strong>Find COVID-19 vaccination sites</strong></div><br>
 <form action="https://www.vaccines.gov/search/">
-<input type="submit" value="Learn More">
+<input id="button2" type="submit" value="Learn More">
 </form>
+</div>
+
+</body>
